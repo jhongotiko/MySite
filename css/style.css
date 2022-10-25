@@ -1,0 +1,329 @@
+body,html {
+  font-family: 'Montserrat';
+  height: 100%;
+  background: #0f1020;
+
+}
+
+.box {
+  position: relative;
+  width: 910px;
+  margin: 0 auto;
+}
+
+
+
+.name {
+  color: #7353ba;
+  font-size: 25px;
+  text-transform: uppercase;
+  animation: 2s anim-lineUp ease-out;
+
+}
+
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+
+  }
+
+  20% {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 1;
+
+  }
+
+  100% {
+    opacity: 1;
+
+  }
+}
+
+
+
+
+header {
+  padding: 50px 0;
+  background: #0f1020;
+
+}
+
+
+nav {
+
+  position: absolute;
+  top: 0;
+  right: 0px;
+
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #7353ba;
+  font-size: 25px;
+
+  text-decoration: none;
+  transition: 1s;
+  animation: 200ms anim- ease-out;
+
+}
+
+@keyframes anim- {
+  0% {
+    opacity: 0;
+
+  }
+
+  20% {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 1;
+
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+nav a:hover {
+  color: #faa6ff;
+  background: #2f224d;
+  background-size: 30%;
+  padding: 8px 8px 8px 8px;
+  border-color: azure;
+  border-radius: 15px;
+  border-width: 5px;
+  transition: 1s ease-in-out;
+}
+
+
+
+nav li {
+  color: #7353ba;
+  display: inline;
+  margin: 0 0 0 20px;
+  
+
+}
+
+
+
+
+.container {
+  position: relative;
+  height: 50px;
+}
+
+.image {
+  position: absolute;
+
+  filter: brightness(15%);
+
+  right: 0px;
+
+}
+
+.texto {
+
+  position: absolute;
+  font-weight: bold;
+  color: #7353ba;
+  margin: 0 520px auto;
+  font-size: 50px;
+  top: 50px;
+  text-shadow: 0 0 50px #ef5df7;
+  transition: 1s;
+
+}
+
+.texto:hover {
+  letter-spacing: 2px;
+  text-shadow: 0 0 70px #ef5df7;
+  transition: 1s;
+
+}
+
+.container2 {
+  box-shadow: 0 0 70px #faa6ff;
+  transition: 1s;
+}
+
+
+
+
+.description {
+
+  position: absolute;
+  color: #7353ba;
+  font-size: 20px;
+  top: 50px;
+  margin: 70px 520px;
+  text-shadow: 0 0 50px #ef5df7;
+  border-color: #7353ba;
+  border-style: dashed;
+  border-width: 1px;
+  border-radius: 10px;
+  transition: 500ms ease-in-out;
+  padding: 50px;
+}
+
+.description:hover {
+  border-radius: 5px;
+
+  transition: 1s ease-in-out;
+
+}
+
+#txt {
+  color: #7e66af;
+  font-weight: bold;
+  transition: 500ms ;
+
+}
+
+#txt:hover {
+  letter-spacing: 5px;
+
+  transform: scale(1.5);
+  transition: 1s;
+}
+
+.container-box {
+  border-color: #7353ba;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+
+
+
+.instagram-logo {
+  position: absolute;
+  width: 120px;
+  margin: 120px 0 0 650px;
+  filter: brightness(100%);
+}
+
+.github-logo {
+  position: absolute;
+  width: 120px;
+  margin: 380px 0 0 650px;
+  filter: drop-shadow(1px 3px 2px #211932) brightness(100%)
+}
+
+.txt1 {
+  position: absolute;
+  color: #9f7ae8;
+  font-size: 50px;
+  top: 280px;
+  text-decoration: none;
+  margin: 0 0 0 800px;
+  text-shadow: 0 0 3px #9f7ae8;
+  transition: 1s;
+}
+
+.txt1:hover {
+  text-shadow: 0 0 20px #9f7ae8;
+  transition: 1s;
+}
+
+.txt2 {
+  position: absolute;
+  color: #9f7ae8;
+  text-shadow: 0 0 3px #9f7ae8;
+  font-size: 50px;
+  top: 540px;
+  text-decoration: none;
+  margin: 0 0 0 800px;
+  transition: 1s;
+}
+
+.txt2:hover {
+  text-shadow: 0 0 20px #9f7ae8;
+  transition: 1s;
+}
+
+
+@media only screen and (max-width: 680px)  and 
+(min-width: 0px)
+{
+  body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+} 
+
+  .name {
+    font-size: 15px;
+    margin: 0 10px auto;
+  }
+
+  .texto {
+    font-size: 35px;
+    margin: 0 40px auto;
+
+  }
+
+  .image {
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  nav {
+    right: 425px;
+
+  }
+
+  nav a {
+    font-size: 15px;
+  }
+
+  nav li {
+    margin: 0 0 0 3px;
+  }
+
+  .description {
+    top: 100px;
+    margin: 0 30px;
+    padding: 35px;
+  }
+
+  .instagram-logo {
+    position: absolute;
+    width: 60px;
+    margin: 220px 0 0 80px;
+
+  }
+
+  .txt1 {
+    position: absolute;
+    font-size: 25px;
+    top: 350px;
+    margin: 0 0 0 160px;
+    text-shadow: 0 0 3px #9f7ae8;
+
+  }
+
+  .github-logo {
+    position: absolute;
+    top: 550px;
+    width: 60px;
+    margin: 0px 0 0 80px;
+  }
+
+  .txt2 {
+    position: absolute;
+    font-size: 25px;
+    top: 570px;
+    margin: 0 0 0 160px;
+
+  }
+  
+}
+
